@@ -2,7 +2,6 @@
 
 def loop_iterator(number_of_times)
   count = 0
-  phrase = "Welcome to Flatiron School's Web Development Course!"
   loop do
     count += 1 
     puts "Welcome to Flatiron School's Web Development Course!"
@@ -16,7 +15,7 @@ def loop_iterator(number_of_times)
   #   correct number of times?
   # Maybe we should keep count of the number of times we've puts out the 
   #  phrase and break when the counter hits the appropriate number...
- 
+  # phrase = "Welcome to Flatiron School's Web Development Course!"
  end
 
 def times_iterator(number_of_times)
@@ -35,7 +34,7 @@ def while_iterator(number_of_times)
   end
   # code your solution here using the "while" keyword
   # hint: user a counter to tell the while loop when to stop!
-  phrase = "Welcome to Flatiron School's Web Development Course!"
+  # phrase = "Welcome to Flatiron School's Web Development Course!"
 end
 
 def until_iterator(number_of_times)
